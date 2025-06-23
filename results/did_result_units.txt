@@ -1,0 +1,27 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                  units   R-squared:                       0.001
+Model:                            OLS   Adj. R-squared:                  0.001
+Method:                 Least Squares   F-statistic:                     2.851
+Date:                Mon, 23 Jun 2025   Prob (F-statistic):             0.0360
+Time:                        09:33:01   Log-Likelihood:                -13917.
+No. Observations:                6000   AIC:                         2.784e+04
+Df Residuals:                    5996   BIC:                         2.787e+04
+Df Model:                           3                                         
+Covariance Type:            nonrobust                                         
+==================================================================================
+                     coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------
+Intercept          5.5086      0.061     90.060      0.000       5.389       5.629
+treatment         -0.2188      0.090     -2.426      0.015      -0.396      -0.042
+post              -0.0802      0.087     -0.928      0.354      -0.250       0.089
+treatment:post     0.0839      0.128      0.658      0.511      -0.166       0.334
+==============================================================================
+Omnibus:                      219.166   Durbin-Watson:                   0.391
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              244.537
+Skew:                           0.471   Prob(JB):                     7.93e-54
+Kurtosis:                       3.300   Cond. No.                         6.64
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
